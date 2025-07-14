@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+}
+nav{
+    display :flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 4.5rem;
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+nav ul{
+    display:flex;
+    margin-right: 10rem;
+}
+
+nav li{
+    margin-left: 1.5rem;
+    list-style: none;
+}
+
+.heading img{
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+nav li:hover{
+    text-decoration: underline;
+}
+
+
+.navyBlue{
+    color:rgb(0, 0, 0);
+}
+
+.firstArticle{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+}
+.firstArticle article{
+    width:40rem;
+    font-size: x-large;
+    margin-left: 10rem;
+}
+.firstArticle img{
+    width:20rem;
+    height:25rem;
+    margin-right: 10rem;
+}
+.firstArticle h2{
+    text-decoration: underline;
+
+}
+.secondArticle{
+    height:100rem;
+}
+.secondArticle h2{
+text-align: center;
+text-decoration: underline;
+
+}
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: center;
+}
+.components {
+    border:2px solid white;
+    height: 30rem;
+    width:20rem;
+}
+
+.components ul{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: larger;
+    list-style: none;
+}
+
+.components li{
+    margin-bottom: 1rem;
+}
+
+.linkers:hover{
+    text-decoration: underline;
+}
